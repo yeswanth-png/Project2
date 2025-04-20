@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+}
+  
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+  
+h1 {
+    margin: 0;
+}
+  
+/* Container for both form and product list */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+  
+/* Form container styles */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    text-align: center;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #45a049;
+}
+  
+/* Product List Styles */
+.product-list {
+    background-color: white;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.product-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+  
+.product-list li:hover {
+    background-color: #e8e8e8;
+}
+  
+.product-list h2 {
+    text-align: center;
+}
